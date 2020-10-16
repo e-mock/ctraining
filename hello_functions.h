@@ -1,6 +1,6 @@
- #ifndef HELLO_WORLD_H
+ #ifndef HELLO_FUNCTIONS_H
 
-#define HELLO_WORLD_H
+#define HELLO_FUNCTIONS_H
 
 #include <stdio.h>
 #include <stdlib.h>
