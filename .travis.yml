@@ -38,11 +38,11 @@ install:
 script:  
 
   - echo "Reached Script Section - Hello"
-  - gcc   	hello_world.c -o output
+  - gcc   	hello_functions.c hello_world.c -o output
   - ./output
   - size output
 
   - echo "Reached Script Section - Elizabeth CUnit"
-  - gcc   	hello_world.c cunit_tests.c -o cunit_democode -lcunit
+  - gcc   	hello_functions.c cunit_tests.c -o cunit_democode -lcunit
   - ./cunit_democode
   - size cunit_democode
