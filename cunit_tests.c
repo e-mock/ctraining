@@ -1,6 +1,6 @@
 #include <CUnit/CUnit.h>
 #include <CUnit/Basic.h>
-#include "hello_world.h"
+#include "hello_functions.h"
 
 void test_add(void)
 {
