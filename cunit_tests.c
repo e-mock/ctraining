@@ -68,6 +68,7 @@ void test_temp_sensor_to_c_invalid(void){
         CU_ASSERT(temp_sensor_converter(inputs[i], &success) <= expected_outputs[i] + tolerance);
         CU_ASSERT(success == false); 
     } 
+}
     
 
 int main(){
